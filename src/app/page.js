@@ -26,8 +26,8 @@ export default function Home() {
               Travis Keefe
             </h2>
             <h3 className="text-2xl py-2">
-              Runner by morning, software engineer by day, and finance bro by
-              night.
+              Runner by morning, software engineer by day, and finance
+              enthusiast by night.
             </h3>
           </div>
           <div className="text-5xl text-teal-600 flex justify-center gap-16 py-3">
