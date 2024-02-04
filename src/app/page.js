@@ -5,7 +5,7 @@ import {FiFeather} from "react-icons/fi"
 import {
   FaStrava,
   FaInstagram,
-  FaGitlab,
+  FaGithub,
   FaTwitter,
 } from "react-icons/fa";
 
@@ -37,8 +37,8 @@ export default function Home() {
             <a href="https://twitter.com/FinTechTrav">
               <FaTwitter />
             </a>
-            <a href="https://gitlab.com/tkeefe">
-              <FaGitlab />
+            <a href="https://github.com/tkeefe">
+              <FaGithub />
             </a>
             <a href="https://www.strava.com/athletes/15260121">
               <FaStrava />
