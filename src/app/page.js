@@ -22,7 +22,7 @@ export default function Home() {
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between"></nav>
           <div className="text-center p-10">
-            <h2 className="text-5xl py-2 text-teal-600 font-medium">
+            <h2 className="text-5xl py-2 text-teal-600 font-large">
               Travis Keefe
             </h2>
             <h3 className="text-2xl py-2">
