@@ -7,6 +7,7 @@ import {
   FaInstagram,
   FaGithub,
   FaTwitter,
+  FaLinkedin,
 } from "react-icons/fa";
 
 export default function Home() {
@@ -39,6 +40,9 @@ export default function Home() {
             </a>
             <a href="https://github.com/tkeefe">
               <FaGithub />
+            </a>
+            <a href="https://www.linkedin.com/in/travis-keefe-969901132/">
+              <FaLinkedin />
             </a>
             <a href="https://www.strava.com/athletes/15260121">
               <FaStrava />
