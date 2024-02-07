@@ -21,7 +21,20 @@ export default function Home() {
 
       <main className="bg-gray-900 px-10">
         <section className="min-h-screen">
-          <nav className="py-10 mb-12 flex justify-between"></nav>
+          <nav className="py-10 mb-12 flex justify-between">
+            {/* <div>
+              <ul className="flex justify-center gap-16 py-3">
+                <li>
+                  <a
+                    className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
+                    href="#"
+                  >
+                    Contact Me
+                  </a>
+                </li>
+              </ul>
+            </div> */}
+          </nav>
           <div className="text-center p-10">
             <h2 className="text-5xl py-2 text-teal-600 font-large">
               Travis Keefe
@@ -31,7 +44,7 @@ export default function Home() {
               enthusiast by night.
             </h3>
           </div>
-          <div className="text-5xl text-teal-600 flex justify-center gap-16 py-3">
+          <div className="text-5xl text-teal-600 flex justify-center gap-16 py-2">
             <a href="https://www.instagram.com/trav.keefe/">
               <FaInstagram />
             </a>
@@ -51,18 +64,7 @@ export default function Home() {
               <FiFeather />
             </a>
           </div>
-          {/* <div>
-            <ul className="flex justify-center gap-16 py-3">
-              <li>
-                <a
-                  className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
-                  href="#"
-                >
-                  Contact Me
-                </a>
-              </li>
-            </ul>
-          </div> */}
+
           <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden">
             <Image src={devtrav} layout="fill" objectFit="cover" />
           </div>
