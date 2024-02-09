@@ -585,6 +585,9 @@ video {
 .gap-16 {
   gap: 4rem;
 }
+.gap-1 {
+  gap: 0.25rem;
+}
 .overflow-hidden {
   overflow: hidden;
 }
@@ -650,9 +653,6 @@ video {
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
-}
-.font-medium {
-  font-weight: 500;
 }
 .text-teal-600 {
   --tw-text-opacity: 1;
